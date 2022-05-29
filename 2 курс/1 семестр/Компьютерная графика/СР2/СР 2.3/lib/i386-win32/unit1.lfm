@@ -1,0 +1,25 @@
+object Form1: TForm1
+  Left = 120
+  Height = 261
+  Top = 120
+  Width = 235
+  Caption = 'СР 2.3'
+  ClientHeight = 261
+  ClientWidth = 235
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 16
+    Height = 200
+    Top = 8
+    Width = 200
+  end
+  object Button1: TButton
+    Left = 17
+    Height = 30
+    Top = 218
+    Width = 197
+    Caption = 'Нарисовать'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end

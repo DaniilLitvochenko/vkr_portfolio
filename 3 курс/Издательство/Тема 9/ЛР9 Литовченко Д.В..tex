@@ -1,0 +1,50 @@
+% "ЛР9"
+
+\documentclass[a4paper,12pt]{article} % тип документа
+
+%  Русский язык
+
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+
+
+\usepackage{wasysym}
+
+\usepackage{hyperref} % гиперссылки
+
+
+%Заговолок
+\author{Литовченко Даниил}
+\title{Создание таблиц средствами \LaTeX{}}
+\date{16.12.2020}
+
+
+\begin{document} % начало документа
+
+\maketitle
+\newpage
+\begin{table}
+\caption{\label{tab:one}  Таблица}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+Колонка1 & Колонка2
+& \multicolumn{3}{|c|}{Колонка3} \\
+\cline{3-5}
+\hline
+
+1 & 2 & 3 & 4 & 5\\
+\hline
+1 & 2 & 3 & 4 & 5 \\
+\hline
+1 & 2 & 3 & 4 & 5\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

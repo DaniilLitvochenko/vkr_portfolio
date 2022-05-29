@@ -1,0 +1,79 @@
+% "Лабораторная работа 3"
+
+\documentclass[a4paper,12pt]{article} % тип документа
+
+% report, book
+
+%  Русский язык
+
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+
+
+\usepackage{wasysym}
+
+\usepackage{hyperref} % гиперссылки
+
+%Заговолок
+\author{Царулкова Анастасия}
+\title{Работа с текстом в \LaTeX{}}
+\date{21.10.2020}
+
+
+\begin{document} % начало документа
+
+\maketitle
+\newpage
+\section{Формулы}
+В тексте есть формула $a+b$ суммы двух чисел.
+Есть формула, которая записана с новой строки $$a^2+b^2=c^2$$ в нашем тексте
+\begin{equation} \label {pif}
+a^2+b^2=c^2
+\end{equation}
+
+Теорема пифагора \eqref{pif} известна из школьного курса математики
+
+\section{Индексы}
+$m_1$ \\
+$m_{12}$ \\
+$c^2$ \\
+$c^{22}$
+
+\section{Стандартные функции}
+$\sin(x)$ \\
+$\sin x$ \\
+$\arctg x= \sqrt{3} $\\
+$\arctg x=$ $\sqrt[3]{5}$ \\
+
+
+\begin{equation}
+\arctg x=\sqrt{3}
+\end{equation}
+\\
+\begin{equation}
+\arctg x=\sqrt{5}{3}
+\end{equation}
+$\log_{x-1}{x^2-3x-4} \geqslant 2$ \\
+$\lg 10 - \ln e$
+
+\section{Функции}
+Формула суммы $\sum_{i=1}^{n}a_i+b_i$ некоторых значений \\
+\[ \sum_{i=1}^{n}a_i+b_i \]
+$ I=\int r^dm интегрирование по m $ \\
+\[I=\int r^2dm\]\\
+\[I=\int\limits_{0}^{1} r^2dm\]\\
+
+\section{Знаки}
+
+$ 3\times2=2\cdot 3 $ \\
+$1 \dots n $\\
+
+$(\frac{2}{4}= \frac{1}{2})$
+\[\underbrace{1+2+3+\dots+n} = N \]
+
+\end{document} % конец документа

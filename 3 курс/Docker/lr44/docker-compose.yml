@@ -1,0 +1,24 @@
+services:
+    primo:
+        image: "node:alpine"
+        working_dir: /home/node/app
+        volumes: 
+            - .:/home/node/app
+        environment: 
+            - PORT=8000
+            - MSG=Primo
+        ports: 
+            - "8000:8000"
+        command: "npm start"
+    
+    secundo:
+        image: "node:alpine"
+        working_dir: /home/node/app
+        volumes: 
+            - .:/home/node/app
+        environment: 
+            - PORT=8000
+            - MSG=Secundo
+        ports: 
+            - "8001:8000"
+        command: "npm start"

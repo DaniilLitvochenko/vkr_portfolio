@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/USER/Desktop/Ucheeba/Programmistika/tema6/task4/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+malloc.h
+-
+

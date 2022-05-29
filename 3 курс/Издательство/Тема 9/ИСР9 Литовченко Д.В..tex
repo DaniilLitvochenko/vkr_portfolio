@@ -1,0 +1,47 @@
+% "ЛР9"
+
+\documentclass[a4paper,12pt]{article} % тип документа
+
+%  Русский язык
+
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+
+
+\usepackage{wasysym}
+
+\usepackage{hyperref} % гиперссылки
+
+
+%Заговолок
+\author{Литовченко Даниил}
+\title{Создание таблиц средствами \LaTeX{}}
+\date{16.12.2020}
+
+
+\begin{document} % начало документа
+
+\maketitle
+\newpage
+\begin{table}
+\caption{\label{tab:one}Таблица интегралов и дифференциалов}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline 
+Интегралы & Дифференциалы\\
+\hline
+$ \int{} 0 \cdot dx = C$  & 2\\
+\hline
+$ \int{} dx = 1\cdot dx = x + C$ & 2\\
+\hline
+$ \int{} x^n \cdot dx = 1\cdot dx = x + C$ & 2 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

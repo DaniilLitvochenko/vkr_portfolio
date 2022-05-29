@@ -1,0 +1,137 @@
+object Form1: TForm1
+  Left = 275
+  Height = 380
+  Top = 128
+  Width = 230
+  Caption = 'ЛР 3'
+  ClientHeight = 380
+  ClientWidth = 230
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 16
+    Height = 200
+    Top = 8
+    Width = 200
+  end
+  object Label1: TLabel
+    Left = 29
+    Height = 15
+    Top = 223
+    Width = 8
+    Caption = 'A'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 104
+    Height = 15
+    Top = 223
+    Width = 7
+    Caption = 'B'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 192
+    Height = 15
+    Top = 224
+    Width = 8
+    Caption = 'C'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 248
+    Width = 43
+    TabOrder = 0
+    Text = '0'
+  end
+  object Edit2: TEdit
+    Left = 88
+    Height = 23
+    Top = 248
+    Width = 43
+    TabOrder = 1
+    Text = '0'
+  end
+  object Edit3: TEdit
+    Left = 173
+    Height = 23
+    Top = 248
+    Width = 43
+    TabOrder = 2
+    Text = '0'
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 15
+    Top = 288
+    Width = 29
+    Caption = 'x min'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 64
+    Height = 15
+    Top = 288
+    Width = 30
+    Caption = 'y min'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 120
+    Height = 15
+    Top = 288
+    Width = 30
+    Caption = 'x max'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 182
+    Height = 15
+    Top = 288
+    Width = 31
+    Caption = 'y max'
+    ParentColor = False
+  end
+  object Edit4: TEdit
+    Left = 7
+    Height = 23
+    Top = 312
+    Width = 35
+    TabOrder = 3
+    Text = '0'
+  end
+  object Edit5: TEdit
+    Left = 63
+    Height = 23
+    Top = 312
+    Width = 35
+    TabOrder = 4
+    Text = '0'
+  end
+  object Edit6: TEdit
+    Left = 120
+    Height = 23
+    Top = 312
+    Width = 35
+    TabOrder = 5
+    Text = '0'
+  end
+  object Edit7: TEdit
+    Left = 181
+    Height = 23
+    Top = 312
+    Width = 35
+    TabOrder = 6
+    Text = '0'
+  end
+  object Button1: TButton
+    Left = 72
+    Height = 25
+    Top = 344
+    Width = 75
+    Caption = 'Нарисовать'
+    OnClick = Button1Click
+    TabOrder = 7
+  end
+end

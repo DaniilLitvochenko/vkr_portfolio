@@ -1,0 +1,27 @@
+version: "3"
+services:
+    first:
+        image: "node:12-alpine"
+        working_dir: /home/node/app
+        volumes: 
+            - .:/home/node/app
+        environment:
+            - NODE_ENV=production
+            - PORT=8000
+            - MESSAGE=Environment hello world FIRST
+        ports:
+            - "8000:8000"
+        command: "npm start"
+
+    second:
+        image: "node:12-alpine"
+        working_dir: /home/node/app
+        volumes: 
+            - .:/home/node/app
+        environment:
+            - NODE_ENV=production
+            - PORT=8080
+            - MESSAGE=Environment hello world SECOND
+        ports:
+            - "8080:8080"
+        command: "npm start"

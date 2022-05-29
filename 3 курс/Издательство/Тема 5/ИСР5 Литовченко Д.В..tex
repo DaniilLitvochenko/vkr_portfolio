@@ -1,0 +1,59 @@
+% "ИСР"
+
+\documentclass[a4paper,12pt]{article} % тип документа
+
+% report, book
+
+%  Русский язык
+
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+
+
+\usepackage{wasysym}
+
+\usepackage{hyperref} % гиперссылки
+
+%Заговолок
+\author{Литовченко Даниил}
+\title{Команды для создания текстового документ в \LaTeX{}}
+\date{16.12.2020}
+
+
+\begin{document} % начало документа
+
+\maketitle
+\newpage
+
+\textbackslash documentclass[]\{класс\}\\
+Задаёт общий стиль оформления («класс документа»)\\
+Классы:\\
+\begin{itemize}
+\item article
+\item amsart (для оформления статей)
+\item report (похоже на article и book) 
+\item и другие
+\end{itemize}
+В квадратных скобках прописывают формат бумаги и размер шрифта.\\
+Например:\\
+\textbackslash documentclass[a4paper,12pt]\{article\}\\
+После подключаются необходимые пакеты с помощью команды \textbackslash usepackage[]\{\}\\
+Например, подключение русского языка:\\
+\textbackslash usepackage[cp1251]\{inputenc\}\\
+\textbackslash usepackage[russian]\{babel\}\\
+
+Сам документ находится между командами
+\textbackslash begin\{document\}\\
+\textbackslash end\{document\}\\
+\textbackslash parindent        обозначает в \TeX{} величину абзацного отступа.
+Например:\\
+\textbackslash parindent=2cm\\
+
+\textbackslash subsection и \textbackslash subsection* создают разделы документа с нумерацией и без нумерации соответственно.
+
+\end{document}

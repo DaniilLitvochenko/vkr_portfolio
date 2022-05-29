@@ -1,0 +1,124 @@
+object Form1: TForm1
+  Left = 55
+  Height = 204
+  Top = 167
+  Width = 167
+  Caption = 'СР 1'
+  ClientHeight = 204
+  ClientWidth = 167
+  LCLVersion = '2.0.6.0'
+  object Edit1: TEdit
+    Left = 80
+    Height = 23
+    Top = 8
+    Width = 72
+    TabOrder = 0
+    Text = '0'
+  end
+  object Edit2: TEdit
+    Left = 80
+    Height = 23
+    Top = 40
+    Width = 72
+    TabOrder = 1
+    Text = '0'
+  end
+  object Edit3: TEdit
+    Left = 80
+    Height = 23
+    Top = 72
+    Width = 72
+    TabOrder = 2
+    Text = '0'
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 16
+    Width = 50
+    Caption = '__________'
+    Color = clBlue
+    ParentColor = False
+    Transparent = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 48
+    Width = 50
+    Caption = '__________'
+    Color = clBlack
+    ParentColor = False
+    Transparent = False
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 82
+    Width = 50
+    Caption = '__________'
+    Color = clRed
+    ParentColor = False
+    Transparent = False
+    OnClick = Label3Click
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 112
+    Width = 50
+    Caption = '__________'
+    Color = clLime
+    ParentColor = False
+    Transparent = False
+    OnClick = Label4Click
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 15
+    Top = 144
+    Width = 50
+    Caption = '__________'
+    Color = clYellow
+    ParentColor = False
+    Transparent = False
+    OnClick = Label5Click
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 15
+    Top = 176
+    Width = 50
+    Caption = '__________'
+    Color = clTeal
+    ParentColor = False
+    Transparent = False
+    OnClick = Label6Click
+  end
+  object Edit4: TEdit
+    Left = 80
+    Height = 23
+    Top = 104
+    Width = 72
+    TabOrder = 3
+    Text = '0'
+  end
+  object Edit5: TEdit
+    Left = 80
+    Height = 23
+    Top = 136
+    Width = 72
+    TabOrder = 4
+    Text = '0'
+  end
+  object Edit6: TEdit
+    Left = 80
+    Height = 23
+    Top = 168
+    Width = 72
+    TabOrder = 5
+    Text = '0'
+  end
+end
